@@ -96,7 +96,7 @@
 &kp LEFT_GUI  &kp LEFT_ALT  &kp CARET  &lt_to_layer_0 6 LEFT  &lt 2 SPACE  &lt_to_layer_0 3 BACKSPACE      &kp ENTER         &lt 1 RIGHT                           &kp QUESTION
             >;
 
-            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+            sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
         };
 
         FUNCTION {
@@ -116,7 +116,7 @@
 &trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                                     &kp PIPE
             >;
 
-            sensor-bindings = <&inc_dec_kp K_VOLUME_UP K_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_VOLUME_DOWN K_VOLUME_UP>;
         };
 
         ARROW {
