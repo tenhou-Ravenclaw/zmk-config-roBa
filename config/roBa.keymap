@@ -58,6 +58,11 @@
             bindings = <&kp LANG2>;
             key-positions = <13 12>;
         };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <20 19>;
+        };
     };
 
     macros {
